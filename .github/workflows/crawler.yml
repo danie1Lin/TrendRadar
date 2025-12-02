@@ -103,7 +103,7 @@ jobs:
           
           echo "📝 Committing changes..."
           TIMESTAMP=$(TZ=Asia/Shanghai date "+%Y-%m-%d %H:%M:%S")
-          git commit -m "Auto update by GitHub Actions at $TIMESTAMP"
+          git commit -m "Auto update by GitHub Actions at $TIMESTAMP "
           
           echo "⬆️ Pushing changes with retry..."
           for i in {1..5}; do
